@@ -1,0 +1,75 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8">
+<title>Faktury → sklad</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f4f5f2;color:#1d2125;font:14px/1.45 "Segoe UI",system-ui,-apple-system,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:36px 32px 48px}
+header h1{margin:0;font-size:26px;letter-spacing:-.01em}
+header p{margin:4px 0 0;color:#5b6168}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:24px 0 28px}
+.tile{background:#fff;border:1px solid #e1e3de;border-radius:10px;padding:14px 16px}
+.tile b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.tile span{color:#5b6168;font-size:12.5px}
+.tile.ok b{color:#1f7a4d}.tile.warn b{color:#a35f00}
+section.inv{background:#fff;border:1px solid #e1e3de;border-radius:12px;margin-bottom:20px;overflow:hidden}
+.inv-head{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid #eceee9}
+.inv-head h2{margin:0;font-size:17px}
+.inv-head .sup{color:#5b6168}
+.inv-head .right{margin-left:auto;text-align:right;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.b-src{background:#eef0f3;color:#3a4048}
+.b-ok{background:#e3f3ea;color:#1f7a4d}.b-warn{background:#fdf0dc;color:#8a5000}.b-dup{background:#eef0f3;color:#5b6168}
+table{width:100%;border-collapse:collapse}
+table.items{table-layout:fixed}
+th,td{padding:7px 12px;text-align:left;vertical-align:top;border-bottom:1px solid #f0f1ee}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:#6b7178;font-weight:600;background:#fafbf9}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.why{color:#5b6168;font-size:12.5px}
+.chip{display:inline-block;font-size:11.5px;font-weight:600;padding:1px 7px;border-radius:5px;white-space:nowrap}
+.c-ean{background:#e3f3ea;color:#1f7a4d}.c-kod{background:#e6eefb;color:#2456a6}.c-naz{background:#f1e9fb;color:#6b3fa0}
+.c-none{background:#fdf0dc;color:#8a5000}.c-kol{background:#fde4e1;color:#b42318}.c-srv{background:#eef0f3;color:#5b6168}
+tr.srv td{color:#7a8087}
+tr.miss td{background:#fffaf0}tr.kol td{background:#fff5f4}
+.pack{display:block;font-size:11.5px;color:#2456a6}
+.foot{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #eceee9}
+.box{padding:12px 18px}
+.box h3{margin:0 0 6px;font-size:13px}
+.box ul{margin:0;padding-left:18px}
+.box+.box{border-left:1px solid #eceee9}
+.sum{font-variant-numeric:tabular-nums}
+.sum .okc{color:#1f7a4d;font-weight:600}.sum .bad{color:#b42318;font-weight:600}
+.new{padding:4px 18px 16px;border-top:1px solid #eceee9}
+.new h3{font-size:13px;margin:12px 0 6px}
+footer{color:#7a8087;font-size:12px;margin-top:24px}
+</style></head><body><div class="wrap">
+<header><h1>Faktury → sklad</h1><p>Ukázkový běh nad vymyšlenými daty · návrhy nových karet: 2</p></header>
+<div class="tiles"><div class="tile "><b>3</b><span>faktur zpracováno</span></div><div class="tile ok"><b>2</b><span>naskladněno automaticky</span></div><div class="tile warn"><b>1</b><span>čeká na kontrolu</span></div><div class="tile "><b>30</b><span>kusů naskladněno</span></div><div class="tile "><b>11 445,00 Kč</b><span>hodnota naskladnění bez DPH</span></div></div>
+<section class="inv">
+<div class="inv-head"><h2>A-2026-0418</h2><span class="sup">Dodavatel A s.r.o. · 2026-09-22</span>
+<span class="badge b-src">ISDOC</span><span class="badge b-ok">naskladněno automaticky</span>
+<div class="right"><b>5 300,00 Kč</b><br><span class=why>bez DPH</span></div></div>
+<table class="items"><colgroup><col style="width:4%"><col style="width:23%"><col style="width:11%">
+<col style="width:10%"><col style="width:11%"><col style="width:19%"><col style="width:22%"></colgroup>
+<tr><th class=num>#</th><th>Řádek na faktuře</th><th class=num>Množství</th><th class=num>Celkem</th>
+<th>Párování</th><th>Skladová karta</th><th>Proč</th></tr>
+<tr class=""><td class=num>1</td><td>Kalhoty do pasu ARVELO, šedá, vel. 50<br><span class=why>A-ARV-K50</span><br><span class=why>EAN 2001000000029</span></td><td class=num>3 ks</td><td class=num>1 467,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K002 · Kalhoty do pasu ARVELO šedé vel. 50</td><td class=why>EAN 2001000000029 je na kartě K002</td></tr><tr class=""><td class=num>2</td><td>Kalhoty do pasu ARVELO, šedá, vel. 52<br><span class=why>A-ARV-K52</span><br><span class=why>EAN 2001000000036</span></td><td class=num>2 ks</td><td class=num>978,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K003 · Kalhoty do pasu ARVELO šedé vel. 52</td><td class=why>EAN 2001000000036 je na kartě K003</td></tr><tr class=""><td class=num>3</td><td>Bunda ARVELO, šedá, L<br><span class=why>A-ARV-BL</span><br><span class=why>EAN 2001000000067</span></td><td class=num>2 ks</td><td class=num>1 625,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K006 · Bunda ARVELO šedá L</td><td class=why>EAN 2001000000067 je na kartě K006</td></tr><tr class=""><td class=num>4</td><td>Tričko QUIVOT, černé, XL<br><span class=why>A-QVT-XL</span></td><td class=num>5 ks</td><td class=num>590,00 Kč</td><td><span class="chip c-kod">kód dodavatele</span></td><td>K010 · Tričko QUIVOT černé XL</td><td class=why>kód dodavatele A-QVT-XL je na kartě K010</td></tr><tr class=""><td class=num>5</td><td>Ponožky TERMO-K 43-46, balení 5 párů<br><span class=why>A-TMK-4346</span><br><span class=why>EAN 2001000000135</span></td><td class=num>10 ks<span class="pack">2 bal. → 10 ks (×5), cena/ks 245 → 49</span></td><td class=num>490,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K013 · Ponožky pracovní TERMO-K vel. 43-46</td><td class=why>EAN 2001000000135 je na kartě K013</td></tr><tr class="srv"><td class=num>6</td><td>Doprava<br><span class=why>DOPRAVA</span></td><td class=num>1 ks</td><td class=num>150,00 Kč</td><td><span class="chip c-srv">služba</span></td><td>—</td><td class=why>nenaskladňuje se, započte se do kontrolního součtu</td></tr></table>
+<div class="foot"><div class="box sum"><h3>Kontrolní součet</h3>Řádky celkem 5 300,00 Kč<br>Faktura bez DPH 5 300,00 Kč<br>Rozdíl <span class="okc">0,00 Kč</span></div><div class="box"><h3>Rozhodnutí</h3>Spárováno všech 5 řádků zboží, součet sedí → dávka předána do POS.</div></div></section><section class="inv">
+<div class="inv-head"><h2>B-2026-0117</h2><span class="sup">Dodavatel B s.r.o. · 2026-09-28</span>
+<span class="badge b-src">PDF text</span><span class="badge b-ok">naskladněno automaticky</span>
+<div class="right"><b>6 226,15 Kč</b><br><span class=why>bez DPH</span></div></div>
+<table class="items"><colgroup><col style="width:4%"><col style="width:23%"><col style="width:11%">
+<col style="width:10%"><col style="width:11%"><col style="width:19%"><col style="width:22%"></colgroup>
+<tr><th class=num>#</th><th>Řádek na faktuře</th><th class=num>Množství</th><th class=num>Celkem</th>
+<th>Párování</th><th>Skladová karta</th><th>Proč</th></tr>
+<tr class=""><td class=num>1</td><td>Kotníková obuv KESTRO S3, vel. 42<br><span class=why>B-KS3-42</span></td><td class=num>2 pár</td><td class=num>1 690,00 Kč</td><td><span class="chip c-kod">kód dodavatele</span></td><td>K015 · Kotníková obuv KESTRO S3 vel. 42</td><td class=why>kód dodavatele B-KS3-42 je na kartě K015</td></tr><tr class=""><td class=num>2</td><td>Kotníková obuv KESTRO S3, vel. 43<br><span class=why>B-KS3-43</span></td><td class=num>3 pár</td><td class=num>2 535,00 Kč</td><td><span class="chip c-kod">kód dodavatele</span></td><td>K016 · Kotníková obuv KESTRO S3 vel. 43</td><td class=why>kód dodavatele B-KS3-43 je na kartě K016</td></tr><tr class=""><td class=num>3</td><td>Polobotka TUVIRO S1P, vel. 41<br><span class=why>B-TV1-41</span></td><td class=num>1 pár</td><td class=num>690,00 Kč</td><td><span class="chip c-kod">kód dodavatele</span></td><td>K020 · Polobotka TUVIRO S1P vel. 41</td><td class=why>kód dodavatele B-TV1-41 je na kartě K020</td></tr><tr class=""><td class=num>4</td><td>Polobotka TUVIRO S1P černá, velikost 42<br><span class=why>TUV-S1P-42</span></td><td class=num>2 pár</td><td class=num>1 380,00 Kč</td><td><span class="chip c-naz">podobnost názvu</span></td><td>K021 · Polobotka TUVIRO S1P vel. 42</td><td class=why>název podobný na 87% (druhá nejbližší karta 36%), velikost 42 sedí</td></tr><tr class="srv"><td class=num>5</td><td>Sleva za odběr 3 %<br><span class=why></span></td><td class=num>1 ks</td><td class=num>−188,85 Kč</td><td><span class="chip c-srv">sleva</span></td><td>—</td><td class=why>nenaskladňuje se, započte se do kontrolního součtu</td></tr><tr class="srv"><td class=num>6</td><td>Dopravné<br><span class=why></span></td><td class=num>1 ks</td><td class=num>120,00 Kč</td><td><span class="chip c-srv">služba</span></td><td>—</td><td class=why>nenaskladňuje se, započte se do kontrolního součtu</td></tr></table>
+<div class="foot"><div class="box sum"><h3>Kontrolní součet</h3>Řádky celkem 6 226,15 Kč<br>Faktura bez DPH 6 226,15 Kč<br>Rozdíl <span class="okc">0,00 Kč</span></div><div class="box"><h3>Rozhodnutí</h3>Spárováno všech 4 řádky zboží, součet sedí → dávka předána do POS.</div></div></section><section class="inv">
+<div class="inv-head"><h2>C-2026-0093</h2><span class="sup">Dodavatel C a.s. · 2026-10-02</span>
+<span class="badge b-src">AI extrakce</span><span class="badge b-warn">čeká na kontrolu</span>
+<div class="right"><b>3 673,00 Kč</b><br><span class=why>bez DPH</span></div></div>
+<table class="items"><colgroup><col style="width:4%"><col style="width:23%"><col style="width:11%">
+<col style="width:10%"><col style="width:11%"><col style="width:19%"><col style="width:22%"></colgroup>
+<tr><th class=num>#</th><th>Řádek na faktuře</th><th class=num>Množství</th><th class=num>Celkem</th>
+<th>Párování</th><th>Skladová karta</th><th>Proč</th></tr>
+<tr class=""><td class=num>1</td><td>Rukavice máčené NITRAX vel. 9 (krabice 12 párů)<br><span class=why>C-NTX-09</span><br><span class=why>EAN 2003000000276</span></td><td class=num>48 ks<span class="pack">4 bal. → 48 ks (×12), cena/ks 336 → 28</span></td><td class=num>1 344,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K027 · Rukavice máčené NITRAX vel. 9</td><td class=why>EAN 2003000000276 je na kartě K027</td></tr><tr class="kol"><td class=num>2</td><td>Rukavice zimní GLACIO vel. 10<br><span class=why>C-GLC-10</span><br><span class=why>EAN 2003000000290</span></td><td class=num>6 pár</td><td class=num>870,00 Kč</td><td><span class="chip c-kol">kolize</span></td><td>—</td><td class=why>kolize EAN: EAN 2003000000290 patří kartě K029 „Rukavice zimní GLACIO vel. 9“, ale kód dodavatele C-GLC-10 kartě K030 „Rukavice zimní GLACIO vel. 10“</td></tr><tr class=""><td class=num>3</td><td>Brýle ochranné CLARO-V čiré<br><span class=why>C-CLV-01</span><br><span class=why>EAN 2003000000313</span></td><td class=num>10 ks</td><td class=num>640,00 Kč</td><td><span class="chip c-ean">EAN</span></td><td>K031 · Brýle ochranné CLARO-V čiré</td><td class=why>EAN 2003000000313 je na kartě K031</td></tr><tr class="miss"><td class=num>4</td><td>Brýle ochranné CLARO-V kouřové<br><span class=why>C-CLV-02</span><br><span class=why>EAN 2003000000900</span></td><td class=num>6 ks</td><td class=num>408,00 Kč</td><td><span class="chip c-none">bez karty</span></td><td>—</td><td class=why>EAN 2003000000900 v POS není a karty dodavatele s jiným EAN jsou jiné výrobky - nový výrobek</td></tr><tr class="miss"><td class=num>5</td><td>Reflexní vesta VIDLO oranžová XL<br><span class=why>C-VST-XL</span></td><td class=num>8 ks</td><td class=num>312,00 Kč</td><td><span class="chip c-none">bez karty</span></td><td>—</td><td class=why>nejpodobnější karta „Chrániče sluchu OTIWEX“ jen na 35% (práh 80%)</td></tr><tr class="srv"><td class=num>6</td><td>Doprava<br><span class=why></span></td><td class=num>1 ks</td><td class=num>99,00 Kč</td><td><span class="chip c-srv">služba</span></td><td>—</td><td class=why>nenaskladňuje se, započte se do kontrolního součtu</td></tr></table>
+<div class="foot"><div class="box sum"><h3>Kontrolní součet</h3>Řádky celkem 3 673,00 Kč<br>Faktura bez DPH 3 673,00 Kč<br>Rozdíl <span class="okc">0,00 Kč</span></div><div class="box"><h3>Proč čeká na člověka</h3><ul><li>bez skladové karty: 2 položky (připraven návrh nových karet)</li><li>kolize EAN: 1×</li></ul></div></div><div class="new"><h3>Návrh nových skladových karet</h3><table><tr><th>Název</th><th>EAN</th><th>Kategorie</th><th class=num>Nákup</th><th class=num>Marže</th><th class=num>Prodej s DPH</th><th>Poznámka</th></tr><tr><td>Brýle ochranné CLARO-V kouřové<br><span class=why>C-CLV-02</span></td><td>2003000000900</td><td>OOPP</td><td class=num>68,00 Kč</td><td class=num>×1,55</td><td class=num><b>130,00 Kč</b></td><td class=why></td></tr><tr><td>Reflexní vesta VIDLO oranžová XL<br><span class=why>C-VST-XL</span></td><td>—</td><td>OOPP</td><td class=num>39,00 Kč</td><td class=num>×1,55</td><td class=num><b>70,00 Kč</b></td><td class=why>bez EAN - doplnit ručně</td></tr></table><h3>Kolize EAN</h3><ul><li>kolize EAN: EAN 2003000000290 patří kartě K029 „Rukavice zimní GLACIO vel. 9“, ale kód dodavatele C-GLC-10 kartě K030 „Rukavice zimní GLACIO vel. 10“</li></ul></div></section>
+<footer>invoice-to-stock · e-mail i pokladní systém jsou v demu simulované</footer>
+</div></body></html>

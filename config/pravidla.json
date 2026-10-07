@@ -1,0 +1,38 @@
+{
+  "_popis": "Obecná pravidla zpracování. Hodnoty jsou ukázkové, ne skutečné marže žádné firmy.",
+  "marze": {
+    "vychozi": 1.65,
+    "podle_kategorie": {
+      "Obuv": 1.45,
+      "Rukavice": 1.75,
+      "OOPP": 1.55
+    }
+  },
+  "dph_prodej_procent": 21,
+  "zaokrouhleni": {
+    "_popis": "Kolem kulaté stovky H je zóna [H-zona_pod, H+zona_nad] -> H-1 (699 místo 700). U kulatých tisíců je zóna nad širší. Mimo zónu se zaokrouhluje na násobek 'krok'; když by tím cena spadla do zóny zespodu, je H-1.",
+    "krok": 10,
+    "zona_pod": 3,
+    "zona_nad": 5,
+    "zona_nad_tisic": 10
+  },
+  "parovani": {
+    "prah_podobnosti": 0.8,
+    "min_naskok": 0.05
+  },
+  "tolerance_souctu_kc": 1.0,
+  "sluzebni_slova": ["doprava", "dopravne", "postovne", "balne", "manipulacni poplatek"],
+  "slevova_slova": ["sleva", "skonto", "rabat"],
+  "kategorie_podle_slov": {
+    "obuv": "Obuv",
+    "polobotka": "Obuv",
+    "holinky": "Obuv",
+    "rukavice": "Rukavice",
+    "bryle": "OOPP",
+    "vesta": "OOPP",
+    "chranice": "OOPP",
+    "kalhoty": "Oděvy",
+    "bunda": "Oděvy",
+    "tricko": "Oděvy"
+  }
+}

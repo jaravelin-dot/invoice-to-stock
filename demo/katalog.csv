@@ -1,0 +1,33 @@
+id,nazev,ean,kod_dodavatele,dodavatel,kategorie,nakupni_cena,prodejni_cena,sklad
+K001,Kalhoty do pasu ARVELO šedé vel. 48,2001000000012,A-ARV-K48,Dodavatel A,Oděvy,489.00,980,2
+K002,Kalhoty do pasu ARVELO šedé vel. 50,2001000000029,A-ARV-K50,Dodavatel A,Oděvy,489.00,980,1
+K003,Kalhoty do pasu ARVELO šedé vel. 52,2001000000036,A-ARV-K52,Dodavatel A,Oděvy,489.00,980,0
+K004,Kalhoty do pasu ARVELO šedé vel. 54,2001000000043,A-ARV-K54,Dodavatel A,Oděvy,489.00,980,3
+K005,Bunda ARVELO šedá M,2001000000050,A-ARV-BM,Dodavatel A,Oděvy,812.50,1620,1
+K006,Bunda ARVELO šedá L,2001000000067,A-ARV-BL,Dodavatel A,Oděvy,812.50,1620,0
+K007,Bunda ARVELO šedá XL,2001000000074,A-ARV-BXL,Dodavatel A,Oděvy,812.50,1620,2
+K008,Tričko QUIVOT černé M,2001000000081,A-QVT-M,Dodavatel A,Oděvy,118.00,240,4
+K009,Tričko QUIVOT černé L,2001000000098,A-QVT-L,Dodavatel A,Oděvy,118.00,240,6
+K010,Tričko QUIVOT černé XL,2001000000104,A-QVT-XL,Dodavatel A,Oděvy,118.00,240,1
+K011,Tričko QUIVOT černé 2XL,2001000000111,A-QVT-2XL,Dodavatel A,Oděvy,118.00,240,2
+K012,Ponožky pracovní TERMO-K vel. 39-42,2001000000128,A-TMK-3942,Dodavatel A,Oděvy,49.00,99,8
+K013,Ponožky pracovní TERMO-K vel. 43-46,2001000000135,A-TMK-4346,Dodavatel A,Oděvy,49.00,99,3
+K014,Kotníková obuv KESTRO S3 vel. 41,2002000000149,B-KS3-41,Dodavatel B,Obuv,845.00,1480,1
+K015,Kotníková obuv KESTRO S3 vel. 42,2002000000156,B-KS3-42,Dodavatel B,Obuv,845.00,1480,0
+K016,Kotníková obuv KESTRO S3 vel. 43,2002000000163,B-KS3-43,Dodavatel B,Obuv,845.00,1480,1
+K017,Kotníková obuv KESTRO S3 vel. 44,2002000000170,B-KS3-44,Dodavatel B,Obuv,845.00,1480,2
+K018,Kotníková obuv KESTRO S3 vel. 45,2002000000187,B-KS3-45,Dodavatel B,Obuv,845.00,1480,1
+K019,Polobotka TUVIRO S1P vel. 40,2002000000194,B-TV1-40,Dodavatel B,Obuv,690.00,1210,1
+K020,Polobotka TUVIRO S1P vel. 41,2002000000200,B-TV1-41,Dodavatel B,Obuv,690.00,1210,0
+K021,Polobotka TUVIRO S1P vel. 42,2002000000217,B-TV1-42,Dodavatel B,Obuv,690.00,1210,0
+K022,Polobotka TUVIRO S1P vel. 43,2002000000224,B-TV1-43,Dodavatel B,Obuv,690.00,1210,2
+K023,Holínky DRENSO PVC vel. 42,2002000000231,B-DRN-42,Dodavatel B,Obuv,310.00,540,2
+K024,Holínky DRENSO PVC vel. 43,2002000000248,B-DRN-43,Dodavatel B,Obuv,310.00,540,3
+K025,Holínky DRENSO PVC vel. 44,2002000000255,B-DRN-44,Dodavatel B,Obuv,310.00,540,1
+K026,Rukavice máčené NITRAX vel. 8,2003000000269,C-NTX-08,Dodavatel C,Rukavice,28.00,60,12
+K027,Rukavice máčené NITRAX vel. 9,2003000000276,C-NTX-09,Dodavatel C,Rukavice,28.00,60,5
+K028,Rukavice máčené NITRAX vel. 10,2003000000283,C-NTX-10,Dodavatel C,Rukavice,28.00,60,20
+K029,Rukavice zimní GLACIO vel. 9,2003000000290,C-GLC-09,Dodavatel C,Rukavice,145.00,310,4
+K030,Rukavice zimní GLACIO vel. 10,2003000000306,C-GLC-10,Dodavatel C,Rukavice,145.00,310,2
+K031,Brýle ochranné CLARO-V čiré,2003000000313,C-CLV-01,Dodavatel C,OOPP,64.00,120,7
+K032,Chrániče sluchu OTIWEX,2003000000320,C-OTW-01,Dodavatel C,OOPP,210.00,390,3

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="http://isdoc.cz/namespace/2013" version="6.0.2">
+  <DocumentType>1</DocumentType>
+  <ID>A-2026-0418</ID>
+  <IssueDate>2026-09-22</IssueDate>
+  <LocalCurrencyCode>CZK</LocalCurrencyCode>
+  <AccountingSupplierParty><Party><PartyName><Name>Dodavatel A s.r.o.</Name></PartyName></Party></AccountingSupplierParty>
+  <AccountingCustomerParty><Party><PartyName><Name>Ukázková prodejna s.r.o.</Name></PartyName></Party></AccountingCustomerParty>
+  <InvoiceLines>
+    <InvoiceLine>
+      <ID>1</ID>
+      <InvoicedQuantity unitCode="ks">3</InvoicedQuantity>
+      <LineExtensionAmount>1467.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>1775.07</LineExtensionAmountTaxInclusive>
+      <UnitPrice>489.00</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Kalhoty do pasu ARVELO, šedá, vel. 50</Description>
+        <CatalogueItemIdentification><ID>2001000000029</ID></CatalogueItemIdentification><SellersItemIdentification><ID>A-ARV-K50</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>2</ID>
+      <InvoicedQuantity unitCode="ks">2</InvoicedQuantity>
+      <LineExtensionAmount>978.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>1183.38</LineExtensionAmountTaxInclusive>
+      <UnitPrice>489.00</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Kalhoty do pasu ARVELO, šedá, vel. 52</Description>
+        <CatalogueItemIdentification><ID>2001000000036</ID></CatalogueItemIdentification><SellersItemIdentification><ID>A-ARV-K52</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>3</ID>
+      <InvoicedQuantity unitCode="ks">2</InvoicedQuantity>
+      <LineExtensionAmount>1625.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>1966.25</LineExtensionAmountTaxInclusive>
+      <UnitPrice>812.50</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Bunda ARVELO, šedá, L</Description>
+        <CatalogueItemIdentification><ID>2001000000067</ID></CatalogueItemIdentification><SellersItemIdentification><ID>A-ARV-BL</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>4</ID>
+      <InvoicedQuantity unitCode="ks">5</InvoicedQuantity>
+      <LineExtensionAmount>590.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>713.90</LineExtensionAmountTaxInclusive>
+      <UnitPrice>118.00</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Tričko QUIVOT, černé, XL</Description>
+        <SellersItemIdentification><ID>A-QVT-XL</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>5</ID>
+      <InvoicedQuantity unitCode="bal">2</InvoicedQuantity>
+      <LineExtensionAmount>490.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>592.90</LineExtensionAmountTaxInclusive>
+      <UnitPrice>245.00</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Ponožky TERMO-K 43-46, balení 5 párů</Description>
+        <CatalogueItemIdentification><ID>2001000000135</ID></CatalogueItemIdentification><SellersItemIdentification><ID>A-TMK-4346</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>6</ID>
+      <InvoicedQuantity unitCode="ks">1</InvoicedQuantity>
+      <LineExtensionAmount>150.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>181.50</LineExtensionAmountTaxInclusive>
+      <UnitPrice>150.00</UnitPrice>
+      <ClassifiedTaxCategory><Percent>21</Percent><VATCalculationMethod>0</VATCalculationMethod></ClassifiedTaxCategory>
+      <Item>
+        <Description>Doprava</Description>
+        <SellersItemIdentification><ID>DOPRAVA</ID></SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+  </InvoiceLines>
+  <LegalMonetaryTotal>
+    <TaxExclusiveAmount>5300.00</TaxExclusiveAmount>
+    <TaxInclusiveAmount>6413.00</TaxInclusiveAmount>
+  </LegalMonetaryTotal>
+</Invoice>

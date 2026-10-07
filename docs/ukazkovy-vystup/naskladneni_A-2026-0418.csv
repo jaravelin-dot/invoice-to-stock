@@ -1,0 +1,6 @@
+karta_id,nazev_karty,ean,kod_dodavatele,mnozstvi,nakupni_cena,celkem_bez_dph,parovani,duvod
+K002,Kalhoty do pasu ARVELO šedé vel. 50,2001000000029,A-ARV-K50,3.0,489.0,1467.0,EAN,EAN 2001000000029 je na kartě K002
+K003,Kalhoty do pasu ARVELO šedé vel. 52,2001000000036,A-ARV-K52,2.0,489.0,978.0,EAN,EAN 2001000000036 je na kartě K003
+K006,Bunda ARVELO šedá L,2001000000067,A-ARV-BL,2.0,812.5,1625.0,EAN,EAN 2001000000067 je na kartě K006
+K010,Tričko QUIVOT černé XL,2001000000104,A-QVT-XL,5.0,118.0,590.0,kód dodavatele,kód dodavatele A-QVT-XL je na kartě K010
+K013,Ponožky pracovní TERMO-K vel. 43-46,2001000000135,A-TMK-4346,10.0,49.0,490.0,EAN,EAN 2001000000135 je na kartě K013

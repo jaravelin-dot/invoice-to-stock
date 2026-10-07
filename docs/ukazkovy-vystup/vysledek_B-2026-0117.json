@@ -1,0 +1,79 @@
+{
+  "faktura": {
+    "cislo": "B-2026-0117",
+    "dodavatel": "Dodavatel B s.r.o.",
+    "datum": "2026-09-28",
+    "celkem_bez_dph": 6226.15,
+    "zdroj": "PDF text",
+    "soubor": "B-2026-0117.pdf"
+  },
+  "stav": "naskladněno",
+  "duvody": [],
+  "kontrolni_soucet": {
+    "soucet_radku": 6226.15,
+    "faktura_celkem": 6226.15,
+    "rozdil": 0.0
+  },
+  "davka": [
+    {
+      "karta_id": "K015",
+      "nazev_karty": "Kotníková obuv KESTRO S3 vel. 42",
+      "ean": "2002000000156",
+      "kod_dodavatele": "B-KS3-42",
+      "mnozstvi": 2.0,
+      "nakupni_cena": 845.0,
+      "celkem_bez_dph": 1690.0,
+      "parovani": "kód dodavatele",
+      "duvod": "kód dodavatele B-KS3-42 je na kartě K015"
+    },
+    {
+      "karta_id": "K016",
+      "nazev_karty": "Kotníková obuv KESTRO S3 vel. 43",
+      "ean": "2002000000163",
+      "kod_dodavatele": "B-KS3-43",
+      "mnozstvi": 3.0,
+      "nakupni_cena": 845.0,
+      "celkem_bez_dph": 2535.0,
+      "parovani": "kód dodavatele",
+      "duvod": "kód dodavatele B-KS3-43 je na kartě K016"
+    },
+    {
+      "karta_id": "K020",
+      "nazev_karty": "Polobotka TUVIRO S1P vel. 41",
+      "ean": "2002000000200",
+      "kod_dodavatele": "B-TV1-41",
+      "mnozstvi": 1.0,
+      "nakupni_cena": 690.0,
+      "celkem_bez_dph": 690.0,
+      "parovani": "kód dodavatele",
+      "duvod": "kód dodavatele B-TV1-41 je na kartě K020"
+    },
+    {
+      "karta_id": "K021",
+      "nazev_karty": "Polobotka TUVIRO S1P vel. 42",
+      "ean": "2002000000217",
+      "kod_dodavatele": "TUV-S1P-42",
+      "mnozstvi": 2.0,
+      "nakupni_cena": 690.0,
+      "celkem_bez_dph": 1380.0,
+      "parovani": "podobnost názvu",
+      "duvod": "název podobný na 87% (druhá nejbližší karta 36%), velikost 42 sedí"
+    }
+  ],
+  "prepocty_baleni": [],
+  "nesparovano": [],
+  "sluzby_a_slevy": [
+    {
+      "nazev": "Sleva za odběr 3 %",
+      "typ": "sleva",
+      "celkem_bez_dph": -188.85
+    },
+    {
+      "nazev": "Dopravné",
+      "typ": "služba",
+      "celkem_bez_dph": 120.0
+    }
+  ],
+  "navrhy_novych_karet": [],
+  "kolize": []
+}

@@ -1,0 +1,12 @@
+# prostředí
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# výstupy dema (ukázkové výstupy jsou v docs/ukazkovy-vystup/)
+demo/vystup/
+
+# lokální tajnosti - v repu nejsou a nemají být
+.env

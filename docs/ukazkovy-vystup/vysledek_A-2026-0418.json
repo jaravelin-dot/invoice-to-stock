@@ -1,0 +1,90 @@
+{
+  "faktura": {
+    "cislo": "A-2026-0418",
+    "dodavatel": "Dodavatel A s.r.o.",
+    "datum": "2026-09-22",
+    "celkem_bez_dph": 5300.0,
+    "zdroj": "ISDOC",
+    "soubor": "A-2026-0418.isdoc"
+  },
+  "stav": "naskladněno",
+  "duvody": [],
+  "kontrolni_soucet": {
+    "soucet_radku": 5300.0,
+    "faktura_celkem": 5300.0,
+    "rozdil": 0.0
+  },
+  "davka": [
+    {
+      "karta_id": "K002",
+      "nazev_karty": "Kalhoty do pasu ARVELO šedé vel. 50",
+      "ean": "2001000000029",
+      "kod_dodavatele": "A-ARV-K50",
+      "mnozstvi": 3.0,
+      "nakupni_cena": 489.0,
+      "celkem_bez_dph": 1467.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2001000000029 je na kartě K002"
+    },
+    {
+      "karta_id": "K003",
+      "nazev_karty": "Kalhoty do pasu ARVELO šedé vel. 52",
+      "ean": "2001000000036",
+      "kod_dodavatele": "A-ARV-K52",
+      "mnozstvi": 2.0,
+      "nakupni_cena": 489.0,
+      "celkem_bez_dph": 978.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2001000000036 je na kartě K003"
+    },
+    {
+      "karta_id": "K006",
+      "nazev_karty": "Bunda ARVELO šedá L",
+      "ean": "2001000000067",
+      "kod_dodavatele": "A-ARV-BL",
+      "mnozstvi": 2.0,
+      "nakupni_cena": 812.5,
+      "celkem_bez_dph": 1625.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2001000000067 je na kartě K006"
+    },
+    {
+      "karta_id": "K010",
+      "nazev_karty": "Tričko QUIVOT černé XL",
+      "ean": "2001000000104",
+      "kod_dodavatele": "A-QVT-XL",
+      "mnozstvi": 5.0,
+      "nakupni_cena": 118.0,
+      "celkem_bez_dph": 590.0,
+      "parovani": "kód dodavatele",
+      "duvod": "kód dodavatele A-QVT-XL je na kartě K010"
+    },
+    {
+      "karta_id": "K013",
+      "nazev_karty": "Ponožky pracovní TERMO-K vel. 43-46",
+      "ean": "2001000000135",
+      "kod_dodavatele": "A-TMK-4346",
+      "mnozstvi": 10.0,
+      "nakupni_cena": 49.0,
+      "celkem_bez_dph": 490.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2001000000135 je na kartě K013"
+    }
+  ],
+  "prepocty_baleni": [
+    {
+      "nazev": "Ponožky TERMO-K 43-46, balení 5 párů",
+      "popis": "2 bal. → 10 ks (×5), cena/ks 245 → 49"
+    }
+  ],
+  "nesparovano": [],
+  "sluzby_a_slevy": [
+    {
+      "nazev": "Doprava",
+      "typ": "služba",
+      "celkem_bez_dph": 150.0
+    }
+  ],
+  "navrhy_novych_karet": [],
+  "kolize": []
+}

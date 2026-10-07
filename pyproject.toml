@@ -1,0 +1,14 @@
+[project]
+name = "invoice-to-stock"
+version = "1.0.0"
+description = "Faktura (ISDOC / PDF) -> párování s katalogem -> naskladnění a návrh nových karet"
+requires-python = ">=3.10"
+dependencies = ["pypdf>=4"]
+
+[project.optional-dependencies]
+ai = ["anthropic"]
+dev = ["pytest>=8", "reportlab>=4", "playwright>=1.40"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

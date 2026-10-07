@@ -1,0 +1,103 @@
+{
+  "faktura": {
+    "cislo": "C-2026-0093",
+    "dodavatel": "Dodavatel C a.s.",
+    "datum": "2026-10-02",
+    "celkem_bez_dph": 3673.0,
+    "zdroj": "AI extrakce",
+    "soubor": "C-2026-0093.pdf"
+  },
+  "stav": "ke kontrole",
+  "duvody": [
+    "bez skladové karty: 2 položky (připraven návrh nových karet)",
+    "kolize EAN: 1×"
+  ],
+  "kontrolni_soucet": {
+    "soucet_radku": 3673.0,
+    "faktura_celkem": 3673.0,
+    "rozdil": 0.0
+  },
+  "davka": [
+    {
+      "karta_id": "K027",
+      "nazev_karty": "Rukavice máčené NITRAX vel. 9",
+      "ean": "2003000000276",
+      "kod_dodavatele": "C-NTX-09",
+      "mnozstvi": 48,
+      "nakupni_cena": 28.0,
+      "celkem_bez_dph": 1344.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2003000000276 je na kartě K027"
+    },
+    {
+      "karta_id": "K031",
+      "nazev_karty": "Brýle ochranné CLARO-V čiré",
+      "ean": "2003000000313",
+      "kod_dodavatele": "C-CLV-01",
+      "mnozstvi": 10,
+      "nakupni_cena": 64.0,
+      "celkem_bez_dph": 640.0,
+      "parovani": "EAN",
+      "duvod": "EAN 2003000000313 je na kartě K031"
+    }
+  ],
+  "prepocty_baleni": [
+    {
+      "nazev": "Rukavice máčené NITRAX vel. 9 (krabice 12 párů)",
+      "popis": "4 bal. → 48 ks (×12), cena/ks 336 → 28"
+    }
+  ],
+  "nesparovano": [
+    {
+      "nazev": "Rukavice zimní GLACIO vel. 10",
+      "duvod": "kolize EAN: EAN 2003000000290 patří kartě K029 „Rukavice zimní GLACIO vel. 9“, ale kód dodavatele C-GLC-10 kartě K030 „Rukavice zimní GLACIO vel. 10“"
+    },
+    {
+      "nazev": "Brýle ochranné CLARO-V kouřové",
+      "duvod": "EAN 2003000000900 v POS není a karty dodavatele s jiným EAN jsou jiné výrobky - nový výrobek"
+    },
+    {
+      "nazev": "Reflexní vesta VIDLO oranžová XL",
+      "duvod": "nejpodobnější karta „Chrániče sluchu OTIWEX“ jen na 35% (práh 80%)"
+    }
+  ],
+  "sluzby_a_slevy": [
+    {
+      "nazev": "Doprava",
+      "typ": "služba",
+      "celkem_bez_dph": 99.0
+    }
+  ],
+  "navrhy_novych_karet": [
+    {
+      "nazev": "Brýle ochranné CLARO-V kouřové",
+      "ean": "2003000000900",
+      "kod_dodavatele": "C-CLV-02",
+      "dodavatel": "Dodavatel C a.s.",
+      "kategorie": "OOPP",
+      "nakupni_cena": 68.0,
+      "marze": 1.55,
+      "prodejni_cena": 130,
+      "mnozstvi": 6,
+      "poznamka": ""
+    },
+    {
+      "nazev": "Reflexní vesta VIDLO oranžová XL",
+      "ean": "",
+      "kod_dodavatele": "C-VST-XL",
+      "dodavatel": "Dodavatel C a.s.",
+      "kategorie": "OOPP",
+      "nakupni_cena": 39.0,
+      "marze": 1.55,
+      "prodejni_cena": 70,
+      "mnozstvi": 8,
+      "poznamka": "bez EAN - doplnit ručně"
+    }
+  ],
+  "kolize": [
+    {
+      "ean": "2003000000290",
+      "popis": "kolize EAN: EAN 2003000000290 patří kartě K029 „Rukavice zimní GLACIO vel. 9“, ale kód dodavatele C-GLC-10 kartě K030 „Rukavice zimní GLACIO vel. 10“"
+    }
+  ]
+}

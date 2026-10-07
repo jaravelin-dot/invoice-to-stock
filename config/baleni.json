@@ -1,0 +1,15 @@
+{
+  "_popis": "Zboží, které dodavatel fakturuje po balení, ale na skladě se vede po kusech/párech. Řádek faktury se pozná podle kódu dodavatele nebo EAN.",
+  "polozky": [
+    {
+      "kody": ["A-TMK-4346", "A-TMK-3942"],
+      "nasobek": 5,
+      "popis": "Ponožky TERMO-K – balení 5 párů"
+    },
+    {
+      "kody": ["C-NTX-08", "C-NTX-09", "C-NTX-10"],
+      "nasobek": 12,
+      "popis": "Rukavice NITRAX – krabice 12 párů"
+    }
+  ]
+}

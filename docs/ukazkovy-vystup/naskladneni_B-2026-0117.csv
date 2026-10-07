@@ -1,0 +1,5 @@
+karta_id,nazev_karty,ean,kod_dodavatele,mnozstvi,nakupni_cena,celkem_bez_dph,parovani,duvod
+K015,Kotníková obuv KESTRO S3 vel. 42,2002000000156,B-KS3-42,2.0,845.0,1690.0,kód dodavatele,kód dodavatele B-KS3-42 je na kartě K015
+K016,Kotníková obuv KESTRO S3 vel. 43,2002000000163,B-KS3-43,3.0,845.0,2535.0,kód dodavatele,kód dodavatele B-KS3-43 je na kartě K016
+K020,Polobotka TUVIRO S1P vel. 41,2002000000200,B-TV1-41,1.0,690.0,690.0,kód dodavatele,kód dodavatele B-TV1-41 je na kartě K020
+K021,Polobotka TUVIRO S1P vel. 42,2002000000217,TUV-S1P-42,2.0,690.0,1380.0,podobnost názvu,"název podobný na 87% (druhá nejbližší karta 36%), velikost 42 sedí"

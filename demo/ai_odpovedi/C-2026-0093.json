@@ -1,0 +1,68 @@
+{
+  "cislo": "C-2026-0093",
+  "dodavatel": "Dodavatel C a.s.",
+  "datum": "2026-10-02",
+  "celkem_bez_dph": 3673.0,
+  "polozky": [
+    {
+      "nazev": "Rukavice máčené NITRAX vel. 9 (krabice 12 párů)",
+      "mnozstvi": 4,
+      "jednotka": "krab",
+      "cena_bez_dph": 336.0,
+      "celkem_bez_dph": 1344.0,
+      "sazba_dph": 21,
+      "ean": "2003000000276",
+      "kod_dodavatele": "C-NTX-09"
+    },
+    {
+      "nazev": "Rukavice zimní GLACIO vel. 10",
+      "mnozstvi": 6,
+      "jednotka": "pár",
+      "cena_bez_dph": 145.0,
+      "celkem_bez_dph": 870.0,
+      "sazba_dph": 21,
+      "ean": "2003000000290",
+      "kod_dodavatele": "C-GLC-10"
+    },
+    {
+      "nazev": "Brýle ochranné CLARO-V čiré",
+      "mnozstvi": 10,
+      "jednotka": "ks",
+      "cena_bez_dph": 64.0,
+      "celkem_bez_dph": 640.0,
+      "sazba_dph": 21,
+      "ean": "2003000000313",
+      "kod_dodavatele": "C-CLV-01"
+    },
+    {
+      "nazev": "Brýle ochranné CLARO-V kouřové",
+      "mnozstvi": 6,
+      "jednotka": "ks",
+      "cena_bez_dph": 68.0,
+      "celkem_bez_dph": 408.0,
+      "sazba_dph": 21,
+      "ean": "2003000000900",
+      "kod_dodavatele": "C-CLV-02"
+    },
+    {
+      "nazev": "Reflexní vesta VIDLO oranžová XL",
+      "mnozstvi": 8,
+      "jednotka": "ks",
+      "cena_bez_dph": 39.0,
+      "celkem_bez_dph": 312.0,
+      "sazba_dph": 21,
+      "ean": "",
+      "kod_dodavatele": "C-VST-XL"
+    },
+    {
+      "nazev": "Doprava",
+      "mnozstvi": 1,
+      "jednotka": "ks",
+      "cena_bez_dph": 99.0,
+      "celkem_bez_dph": 99.0,
+      "sazba_dph": 21,
+      "ean": "",
+      "kod_dodavatele": ""
+    }
+  ]
+}
